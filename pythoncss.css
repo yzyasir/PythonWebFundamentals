@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(36,80,118);
+    margin: solid black;
+}
+.wrapper {
+    margin: auto;  /*What this did is that it centered the webpage in the middle */
+    width: 970px;
+}
+
+.wrapper a {
+    color: rgb(217,188,61);
+}
+
+.sizes {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(36,80,118);
+    color: white;
+    padding-bottom: 20px;
+}
+
+.firstbigblock img {
+    width: 35%;
+    height: auto;
+}
+
+.firstbigblock {
+    display: flex; 
+    justify-content: space-between;
+    background-color: rgb(36,80,118);
+    color: white;
+}
+
+.firstbigblock #go {
+    background-color: rgb(36,80,118);
+}
+
+.Search {
+    display: flex;
+    align-items: center; /* puts the search bar in the middle */
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(68,68,68);
+    border-radius: 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(66,124,173);
+    list-style-type: none;
+    color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-size: larger;
+    border-radius: 5px;
+    font-size: larger;
+}
+
+.wrapperone {
+    display: flex;
+    background-color: rgb(36,80,118);
+}
+
+.wrapperone ul li a {
+    color: white;
+    padding: 10px; /* I did this to space out the bullet points */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperone ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.wrapperone .unlinktag li {
+    color: rgb(217,188,61);
+}
+
+.linktag {
+    margin: 5%;
+    color: white;
+}
+
+.unlinktag { 
+    margin: 7%;
+}
+
+.unlinktag p {
+    margin: 2%;
+    color: white;
+    text-align: center;
+}
+
+.wrappertwo {
+    display: flex;
+    margin: 4%;
+    background-color: white;
+    margin: 0.625px;
+    padding: 20px;
+    text-align: center;
+}
+
+.wrappertwo ul {
+    color: rgb(174,204,230);
+}
+
+h2 {
+    font-size: large;   /*decreased the font size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperthree {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(36,80,118);
+    list-style-type: none;
+    color: white;
+    padding-top: 7%; /* added the padding and kept color to the bottom */
+    padding-bottom: 2%; 
+    color: rgb(103,155,201);
+    font-size: large;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; /*aligned all the base items to the middle*/
+    background-color: rgb(36,80,118); 
+    color: rgb(103,155,201);
+    font-size: 11px;
+}
